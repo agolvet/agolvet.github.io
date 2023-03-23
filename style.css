@@ -242,6 +242,10 @@ a:visited {
   margin-bottom: 20px;
 }
 
+#music-bio {
+  width: 50%;
+}
+
 @media screen and ( max-width: 1024px ) {
   .research-container {
     flex-direction: column;
@@ -312,6 +316,10 @@ a:visited {
   #name-bar {
     font: italic 1rem 'Faune';
     margin: 0;
+  }
+
+  #music-bio {
+    width: 100%;
   }
 
   

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>aliénor golvet - research</title>
+  <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+  <link href="./style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body>
+  <div class="menu-bar">
+    <a href="index.html"><p id="name-bar">aliénor golvet</p></a>
+    <a href="research.html">research</a>
+    <a href="music.html">music</a>
+    <a href="about.html">about</a>
+  </div>
+
+  <div class="research-container">
+    <div id="research-column-left">
+      <div>
+        I am a PhD student at <a href="https://www.stms-lab.fr/">Ircam-STMS lab</a> in the <a href="https://ismm.ircam.fr/">{Sound, Music, Movement} Interaction (ISMM)</a> team under the supervision
+        of Frédéric Bevilacqua and Benjamin Matuszeswski.
+        <br><br>
+        My work focuses on the design and development of distributed interactive music systems and their application in artistic contexts. 
+        Such systems can be described as a network of devices (computers, smartphones, nano-computers...) exchanging data and producing sound. 
+        This creates potential for many collaborative and collective interaction in contexts of musical performances, sound installations, music production, etc...
+          
+        <br><br>
+        More generally, my research interests lie in musical interaction design, human-computer interaction,
+        network music systems, web audio technologies, new interfaces for musical expression.
+      </div>
+    </div>
+
+    <div id="research-column-right">
+      <img class="home-img" src="./img/home_img_research.png">
+    </div>
+  </div>
+    
+  <div class="research-container">
+    <div id="research-column-left">
+      <h2>available works</h2>
+      <div class="research-project">
+        <div class="research-img-link">
+          <a href="https://github.com/ircam-ismm/koryphaios" target="_blank"><img class="project-img" src="./img/koryphaios.png"></a>
+        </div>
+
+        
+        <div class="research-project-description">
+          <p class="research-project-name">Koryphaîos <a href="https://github.com/ircam-ismm/koryphaios" target="_blank"><img class="github-logo" src="./img/github-mark.png"></a></p>
+          <p>
+            an environment for composition of distributed music performance on a local network of device. It connects
+            the <a href="https://www.bachproject.net/" target="_blank">bach</a> library for Max/MSP and the 
+            <a href="https://soundworks.dev/" target="_blank">soundworks</a> framework for developping distributed multimedia application. <br>
+            
+            <i>Koryphaîos</i> works by sending your composition in Max/MSP to a server which then dispatches the various notes among a
+            local network of devices (e.g. computers, mobile phones, ...). These devices then synthesize the requested sound in the
+            browser using the WebAudio API.
+
+          </p>
+        </div>
+      </div>
+
+      <div class="research-project">
+        <div class="research-img-link">
+          <a href="https://github.com/ircam-ismm/simone" target="_blank"><img class="project-img" src="./img/simone.png"></a>
+        </div>
+      
+        <div class="research-project-description">
+          <p class="research-project-name">Simone <a href="https://github.com/ircam-ismm/simone" target="_blank"><img class="github-logo" src="./img/github-mark.png"></a></p> 
+          <p>a set of web interfaces for collective (local-)networked improvisation based on 2 concepts : using the microphone in the sound synthesis process, using the network to share information
+          between users.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="research-column-right">
+
+      <h2>publications</h2>
+      <div id="publications">
+        <a class="publication" href="https://hal.science/hal-03957334v1" target="_blank"><p>Aliénor Golvet, Luciano L Barbosa, Etienne Démoulin, Benjamin Matuszewski. <i>Koryphaîos: A Patchworked Compositional
+          Environment for Distributed Music Systems.</i> Web Audio Conference 2022, Université Côte d'Azur, Jul 2022, Cannes, France.</p>
+        </a>
+
+        <a class="publication" href="https://hal.science/halshs-03913771v1" target="_blank"><p>Clément Canonne, Emanuelle Majeau-Bettez, Aliénor Golvet. <i>Investigating musicians’ listening strategies in the
+        performance of Éliane Radigue’s Occam Delta XV.</i> Musical Togetherness Symposium, 2022, Vienne, Austria.</p>
+        </a>
+
+        <a class="publication" href="https://hal.science/hal-03957455v1" target="_blank"><p>Aliénor Golvet, Louise Goupil, Pierre Saint-Germier, Benjamin Matuszewski, Gérard Assayag, et al.. <i>With, against, or
+        without? Familiarity and co-presence increase interactional dissensus and relational plasticity in freely improvising
+        duos.</i> Psychology of Aesthetics, Creativity, and the Arts, 2023.</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

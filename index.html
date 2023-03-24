@@ -9,9 +9,26 @@
          This makes it easier to make new pages for your site. -->
     <link href="./style.css" rel="stylesheet" type="text/css" media="all">
     <link rel='stylesheet' href='https://www.cnap.fr/sites/faune/styles/faune-fontes.css'>
+    <link rel="icon" href="./img/favicon-full.png">
+    
+
+    <script>
+      const musicImg = ["./img/home_img_music-1.jpg",
+          "./img/home_img_music-2.jpg",
+          "./img/home_img_music-3.jpg",
+          "./img/home_img_music-4.jpg",
+          "./img/home_img_music-5.jpg"
+        ];
+
+        document.addEventListener('DOMContentLoaded', _ => {
+          const randImageIndex = ~~(Math.random() * musicImg.length);
+          document.getElementById('home-img-music').src = musicImg[randImageIndex];
+        });
+    </script>
   </head>
+
+
   <body>
-  
     <p id="name-home">aliénor golvet</p>
 
     <div class="home-section-left">
@@ -27,7 +44,7 @@
       <a href="music.html">
         <span class="home-section-text">music</span>
         <div class="home-img-link">
-          <img class="home-img" src="./img/home_img_music.jpg">
+          <img class="home-img" id="home-img-music" src="">
         </div>
       </a>
     </div>

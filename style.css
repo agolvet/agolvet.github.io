@@ -212,18 +212,6 @@ a:visited {
   margin: 20px;
 }
 
-#home-img-research {
-  position: absolute;
-  left: 0;
-  top: 30%;
-}
-
-#home-img-music {
-  position: absolute;
-  left: 40%;
-  top: 0;
-}
-
 #research-column-left {
   flex-basis: 50%
 }

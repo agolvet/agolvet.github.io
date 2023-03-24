@@ -234,6 +234,13 @@ a:visited {
   width: 50%;
 }
 
+#about-footnote {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  padding-left: 10px;
+}
+
 @media screen and ( max-width: 1024px ) {
   .research-container {
     flex-direction: column;
@@ -311,4 +318,10 @@ a:visited {
   }
 
   
+}
+
+@media screen and (max-height: 400px) {
+  #about-footnote {
+    width: 20%;
+  }
 }

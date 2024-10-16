@@ -202,6 +202,34 @@ a:visited {
   height: 250px;
 }
 
+.thesis-table-contents{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.thesis-chapter-index{
+  width: 500px;
+  aspect-ratio: 2.2;
+  margin: 10px 10px 10px 0px;
+  position: relative;
+}
+
+.thesis-chapter-index:hover{
+  transform: scale(1.02);
+  transition-duration: 0.2s;
+}
+
+.thesis-index-img{
+  max-width: 100%;
+}
+
+
+.thesis-index-chapter-title{
+  color: black;
+  margin: 0;
+}
+
 .thesis-page {
   display: flex;
   flex-direction: column;
@@ -371,7 +399,7 @@ a:visited {
   }
 
   #name-bar {
-    font: italic 1rem 'Faune';
+    font: italic 2rem 'Faune';
     margin: 0;
   }
 
@@ -387,6 +415,16 @@ a:visited {
     width: 100%;
     text-align: left;
     margin: 0px;
+  }
+
+  .thesis-table-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .thesis-chapter-index {
+    width: 100%;
   }
 }
 
